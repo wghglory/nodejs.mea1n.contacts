@@ -15,5 +15,7 @@ This repo contains the code for a RESTful API Contact List App:
 ## Project startup
 1. uncompress db
 1. `npm install` node_modules
-1. `mongod --dbpath=/Users/derek/Work/Github/nodejs.mean.contact/db --port=27019`
-1. `node app` run project and localhost:3000
+1. `mongod --dbpath=/Users/derek/Work/Github/nodejs.mea1n.contacts/db --port=27019`
+1. `node server` run project and localhost:3000
+
+
