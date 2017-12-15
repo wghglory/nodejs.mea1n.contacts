@@ -4,7 +4,7 @@
 
 ![mean stack tutorial app](/screenshot/meanContact.png)
 
-This repo contains the code for a RESTful API Contact List App:
+This repo contains the code for a Restful API Contact List App:
 
 - Ejs engine
 - MongoDB
@@ -13,9 +13,8 @@ This repo contains the code for a RESTful API Contact List App:
 - NodeJS
 
 ## Project startup
-1. uncompress db
+
+1. decompress db
 1. `npm install` node_modules
-1. `mongod --dbpath=/Users/derek/Work/Github/nodejs.mea1n.contacts/db --port=27019`
-1. `node server` run project and localhost:3000
-
-
+1. `npm run mongod // modify the directory in package.json. Make sure only 1 instance is running`
+1. `npm start` run project and localhost:3000
